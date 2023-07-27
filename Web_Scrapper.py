@@ -48,7 +48,7 @@ for page in range(1, page_num_Max):
         hotel_dict["amenities"] = ''.join(amenities_list[:-1])
         
         scraped_info_list.append(hotel_dict)    
-
+#This will create a .csv file to store scraped data
 dataFrame = pandas.DataFrame(scraped_info_list)
 print("Creating csv")
 dataFrame.to_csv("Scraped_Data.csv")
