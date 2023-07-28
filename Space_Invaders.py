@@ -183,3 +183,8 @@ while running:
     player(playerX, playerY)
     show_score(textX, testY)
     pygame.display.update()
+
+
+
+#https://drive.google.com/drive/folders/1G-yZ3WKmJrKQWqQyI_3k1VdUAZHZpOLb?usp=sharing
+#To run this code download the files from the drive link
