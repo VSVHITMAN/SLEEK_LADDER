@@ -17,7 +17,7 @@ while(condition):
     print("\nThe entered information is-\nName: {}\nAge: {}\nContact Number: {}\nE-mail ID: {}"
             .format(student_info_list[0], student_info_list[1], student_info_list[2], student_info_list[3]))
     
-    choice_check=("Is the entered information correct? (yes/no): ")
+    choice_check=input("Is the entered information correct? (yes/no): ")
 
     if choice_check == "yes":
         write_into_csv(student_info_list)
