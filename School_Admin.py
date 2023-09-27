@@ -10,7 +10,7 @@ condition= True
 student_num = 1
 
 while(condition):
-    student_info = input("Enter student information for the student#{} in the following format (Name Age Contact_number E-mail_ID): ")
+    student_info = input("Enter student information for the student in the following format (Name Age Contact_number E-mail_ID): ")
     
 
     student_info_list = student_info.split(' ')
